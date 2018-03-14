@@ -57,8 +57,10 @@ p{
     display: block;
 }
 
-.navi a:hover {
-    color: #f1f1f1;
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: black;
 }
 
 .navi #logo{
