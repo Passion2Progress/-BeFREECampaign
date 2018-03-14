@@ -81,7 +81,7 @@ p{
 
 .main {
     margin-left: 14%;	
-	padding: 10% 50px 75px 100px;
+	padding: 3% 50px 75px 100px;
 	background-color: white;
 	transition: all 0.5s ease-in 0s;
 	-webkit-transition: all 0.5s ease-in 0s;
@@ -92,7 +92,7 @@ p{
 
 .main.active {
     margin-left: 0%;	
-	padding: 10% 50px 75px 100px;
+	padding: 7% 50px 75px 100px;
 	background-color: rgb(255, 200, 219);
 	transition: all 0.5s ease-in 0s;
 	-webkit-transition: all 0.5s ease-in 0s;
