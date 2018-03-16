@@ -65,9 +65,9 @@ p{
 
 .navi #logo{
 	padding: 1em;
-	margin: AUTO;
-	width: 13em;
-	height: 9em;
+	margin: auto;
+	width: 14em;
+	height: 7em;
 }
 .empty {
 	display: none;
@@ -250,7 +250,7 @@ button#reg-button{
     background-repeat: no-repeat;
     border: 3px solid #fff;
     padding: 1% 5% 1% 5%;
-    border-radius: 50px 50px 0px 50px;
+    border-radius: 50px 50px 50px 50px;
     font-weight: 500;
 }
 
@@ -414,5 +414,101 @@ figure.effect:hover p {
     margin-right:0px;
 }
 
+
+/* Pat edits */
+/* Majority of my CSS is inline (sorry!) */
+
+.logo-bod {
+	min-height:60%; 
+	min-width: 60%; 
+	max-height: 60%; 
+	max-width: 60%;
+}
+
+/* Slogan */
+.slogan-bod {
+	text-align: center; 
+	color: white; 
+	margin: 0; 
+	margin-bottom: 1em; 
+	color: #ee135b;
+}
+
+.slogan-span1 {
+	font-weight: bold;
+}
+
+.slogan-span2 {
+	background-color: #ee135b; 
+	color: white; 
+	font-weight: bold; 
+	padding: 0 .2em 0 .2em;
+}
+
+/* Slogan end */
+
+/* BeFREE text */
+
+.beFREE-txt { 
+	font-size: 150%; color: #ee135b;
+}
+
+/* BeFREE text end */
+
+/* Button */
+
+.butt-center {
+	margin: 0; 
+	margin-right: 6em;
+}
+
+/* Button end */
+
+/* Boxy */
+
+.boxy {
+	border: 1px solid #ee135b; 
+	padding: 0; 
+	width: 28%;
+}
+
+.boxy-center {
+	border: 1px solid #ee135b; 
+	padding: 0; 
+	width: 28%; 
+	margin-right: 5em; 
+	margin-left: 5em;
+}
+
+.boxy-title {
+	text-align: center; 
+	font-size: 200%; 
+	background-color: #ee135b; 
+	padding: 0 .1em .1em .1em; 
+	color: white; 
+	font-weight: bold;
+}
+
+.boxy-txt {
+	font-size: 150%; 
+	text-align: center; 
+	color: #ee135b; 
+	width: 90%; 
+	margin: auto; 
+	padding-top: 1em;
+}
+
+/* Boxy end */
+
+.free-c a:hover {
+
+	text-decoration: none;
+}
+
+.boxy-h { 
+	margin: auto; 
+	text-align: center; 
+	border: 6px solid #ee135b;
+}
 
 
