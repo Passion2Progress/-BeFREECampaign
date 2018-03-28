@@ -93,7 +93,7 @@ p{
 .main.active {
     margin-left: 0%;	
 	padding: 7% 50px 75px 100px;
-	background-color: rgb(255, 200, 219);
+	/* background-color: rgb(255, 200, 219); */
 	transition: all 0.5s ease-in 0s;
 	-webkit-transition: all 0.5s ease-in 0s;
 	-moz-transition: all 0.5s ease-in 0s;
