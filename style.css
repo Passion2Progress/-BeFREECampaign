@@ -265,6 +265,30 @@ button#reg-button{
 	margin-left: 30%;
 	overflow: hidden;
 }
+
+.image-box2{
+	height: 400px;
+	width: 400px;
+	border-radius: 30%;
+	z-index: 0;
+	position: relative;
+	margin-bottom: 6%;
+	margin-left: 60%;
+	margin-top: 1%;
+	overflow: hidden;
+}
+
+.image-box3{
+	height: 400px;
+	width: 400px;
+	border-radius: 30%;
+	z-index: 0;
+	position: relative;
+	margin-bottom: 6%;
+	margin-left: 5%;
+	overflow: hidden;
+}
+
 @media (min-width:768px) {
 
 
@@ -469,7 +493,14 @@ figure.effect:hover p {
 .boxy {
 	border: 1px solid #ee135b; 
 	padding: 0; 
-	width: 28%;
+	/* width: 28%; */
+}
+
+.boxy2 {
+	border: 1px solid #ee135b; 
+	padding: 0; 
+	float: right;
+	/* width: 28%; */
 }
 
 .boxy-center {
