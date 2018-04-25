@@ -267,20 +267,20 @@ button#reg-button{
 }
 
 .image-box2{
-	height: 400px;
-	width: 400px;
+	height: 575px;
+	width: 575px;
 	border-radius: 30%;
 	z-index: 0;
 	position: relative;
 	margin-bottom: 6%;
-	margin-left: 60%;
+	margin-left: 40%;
 	margin-top: 1%;
 	overflow: hidden;
 }
 
 .image-box3{
-	height: 400px;
-	width: 400px;
+	height: 575px;
+	width: 575px;
 	border-radius: 30%;
 	z-index: 0;
 	position: relative;
@@ -326,6 +326,26 @@ button#reg-button{
 	.container { min-width: 280px; }
 	.hidden-phone { display: none; }
 }    
+
+@media (max-width: 450px) { 
+	#wrapper{
+		display: none;
+	}
+	.main{
+		margin-left: 0%;
+	}
+	#video1{
+		display: none;
+	}
+
+	#reg-button {
+		position: relative;
+		text-align: center;
+		font-size: 100%;
+		color: #FFF
+	}
+}    
+
 
 @keyframes wiggle {
 	0% {
@@ -493,20 +513,36 @@ figure.effect:hover p {
 .boxy {
 	border: 1px solid #ee135b; 
 	padding: 0; 
-	/* width: 28%; */
+	width: 28%;
+	height: 35em;
 }
 
 .boxy2 {
 	border: 1px solid #ee135b; 
 	padding: 0; 
 	float: right;
-	/* width: 28%; */
+	height: 35em;
+	width: 28%;
+}
+
+.boxy3 {
+	border: 1px solid #ee135b; 
+	padding: 0; 
+	width: 28%;
+}
+
+.boxy4 {
+	border: 1px solid #ee135b; 
+	padding: 0; 
+	float: right;
+	width: 28%;
 }
 
 .boxy-center {
 	border: 1px solid #ee135b; 
 	padding: 0; 
 	width: 28%; 
+	height: 35em;
 	margin-right: 5em; 
 	margin-left: 5em;
 }
