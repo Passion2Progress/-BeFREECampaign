@@ -578,4 +578,35 @@ figure.effect:hover p {
 	border: 6px solid #ee135b;
 }
 
+/* Letters */
 
+.butt-submit {
+	font-size: 100%; 
+	color: white; 
+	background-color: #EE135b; 
+	float: right; 
+	display: inline-block;
+}
+
+.letter-img {
+	max-height: 300px; 
+	max-width: 300px;
+    min-height: 300px; 
+    min-width: 300px;
+}
+
+.letter-right {
+	float: right; 
+	display: inline-block;
+}
+
+.letter-left {
+	float: left; 
+	display: inline-block;
+}
+
+.letter-txt {
+	font-size: 150%;
+	font-size: 150%; 
+	color: #ee135b;
+}
